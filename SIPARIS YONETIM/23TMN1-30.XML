@@ -1,0 +1,675 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>1000</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Blokflüt Kutulu</sto_isim>
+    <sip_miktar>100</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>450</KdvMat>
+    <Birim>25</Birim>
+    <PROTUTAR>2500</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2950</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6901</sip_stok_kod>
+    <sto_isim>KÖPÜK 3 cm. TOP 150 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>YRS 23</sip_stok_kod>
+    <sto_isim>YAMAHA BLOKFLÜT</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>648</KdvMat>
+    <Birim>180</Birim>
+    <PROTUTAR>3600</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4248</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3919</sip_stok_kod>
+    <sto_isim>TENİS TOPU 3'LÜ</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>115.2</KdvMat>
+    <Birim>32</Birim>
+    <PROTUTAR>640</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>755.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3922</sip_stok_kod>
+    <sto_isim>SAYAÇLI ATLAMA İPİ</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>61.2</KdvMat>
+    <Birim>68</Birim>
+    <PROTUTAR>340</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>401.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3923</sip_stok_kod>
+    <sto_isim>SAYAÇLI ATLAMA İPİ</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>117</KdvMat>
+    <Birim>65</Birim>
+    <PROTUTAR>650</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>767</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4003</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. SARI</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4004</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. PEMBE</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4005</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. LİLA</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4008</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. TURUNCU</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4009</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. YEŞİL</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4016</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. AÇIK YEŞİL</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4017</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. SİYAH</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4020</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. GÖK MAVİ</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6903</sip_stok_kod>
+    <sto_isim>KÖPÜK 6 cm. TOP 50 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6939</sip_stok_kod>
+    <sto_isim>KÖPÜK 8 cm. TOP 16 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4002</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. FUŞYA</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6961</sip_stok_kod>
+    <sto_isim>KÖPÜK 2 cm. TOP 180 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6962</sip_stok_kod>
+    <sto_isim>KÖPÜK 4 cm. TOP 80 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7017</sip_stok_kod>
+    <sto_isim>KÖPÜK KAPSÜL 180 ADET</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>40.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>225</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>265.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7052</sip_stok_kod>
+    <sto_isim>İPLİ YUMURTA RENKLİ(10 ADET)</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>10.8</KdvMat>
+    <Birim>20</Birim>
+    <PROTUTAR>60</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>70.8</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7107</sip_stok_kod>
+    <sto_isim>DEKORATİF KÖPÜK SET(5 KUTU)</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>16.2</KdvMat>
+    <Birim>30</Birim>
+    <PROTUTAR>90</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>106.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4011</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. BEYAZ</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>25.2</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>140</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>165.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7375</sip_stok_kod>
+    <sto_isim>GÖZLÜ YÜZÜK</sto_isim>
+    <sip_miktar>36</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>8.1</KdvMat>
+    <Birim>1.25</Birim>
+    <PROTUTAR>576</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>53.1</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2>ADET</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>7377</sip_stok_kod>
+    <sto_isim>IŞIKLI GÖZLÜ YÜZÜK(36 ADET)</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>19.44</KdvMat>
+    <Birim>108</Birim>
+    <PROTUTAR>576</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>127.44</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2>KUTU</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>1032</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU MELODİKA 32 KLAVYELİ SOFT BAG</sto_isim>
+    <sip_miktar>36</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>1134</KdvMat>
+    <Birim>175</Birim>
+    <PROTUTAR>6300</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7434</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>2002</sip_stok_kod>
+    <sto_isim>MELODİKA HORTUM SETİ</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>43.2</KdvMat>
+    <Birim>20</Birim>
+    <PROTUTAR>240</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>283.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3021</sip_stok_kod>
+    <sto_isim>SİLİKON KALEM BAŞLIĞI(120 ADET)</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>97.2</KdvMat>
+    <Birim>270</Birim>
+    <PROTUTAR>540</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>637.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6940</sip_stok_kod>
+    <sto_isim>KÖPÜK 10 cm. TOP 8 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40268</PRKOD>
+    <PRUNVAN>ADEM SAHIN</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40268</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

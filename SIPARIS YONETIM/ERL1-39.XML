@@ -1,0 +1,323 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>KC 490</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.16</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>30</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>29.159999999999997</Toplam>
+    <isk1>3</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 715</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>4.32</KdvMat>
+    <Birim>5</Birim>
+    <PROTUTAR>60</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>58.319999999999993</Toplam>
+    <isk1>6</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 754</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI JUMBO</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.592</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>36</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>34.992</Toplam>
+    <isk1>3.6</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>S007</sip_stok_kod>
+    <sto_isim>AMBALAJ KAĞIDI SIMLI DESENLI 50x70 cm. (50 RULO)</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>9.72</KdvMat>
+    <Birim>60</Birim>
+    <PROTUTAR>60</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>63.72</Toplam>
+    <isk1>6</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>YRS 23</sip_stok_kod>
+    <sto_isim>YAMAHA BLOKFLÜT</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>35.64</KdvMat>
+    <Birim>11</Birim>
+    <PROTUTAR>220</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>233.64</Toplam>
+    <isk1>22</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 380</sip_stok_kod>
+    <sto_isim>PELUŞ KALEM ÇANTASI TAVŞANLI</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>5.184</KdvMat>
+    <Birim>6</Birim>
+    <PROTUTAR>72</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>69.984</Toplam>
+    <isk1>7.2</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9141</sip_stok_kod>
+    <sto_isim>PASLANMAZ ÇELİK MATARA 500 ML.</sto_isim>
+    <sip_miktar>24</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>29.16</KdvMat>
+    <Birim>7.5</Birim>
+    <PROTUTAR>180</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>191.16</Toplam>
+    <isk1>18</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9151</sip_stok_kod>
+    <sto_isim>ALÜMİNYUM MATARA 400 ML.</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>9.234</KdvMat>
+    <Birim>4.75</Birim>
+    <PROTUTAR>57</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>60.533999999999992</Toplam>
+    <isk1>5.7</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 382</sip_stok_kod>
+    <sto_isim>PELUŞ KALEM ÇANTASI ÇINGIRAKLI</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>5.184</KdvMat>
+    <Birim>6</Birim>
+    <PROTUTAR>72</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>69.984</Toplam>
+    <isk1>7.2</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 416</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI MİNİ</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>1.3824</KdvMat>
+    <Birim>1.6</Birim>
+    <PROTUTAR>19.200000000000003</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>18.662399999999998</Toplam>
+    <isk1>1.92</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 442</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI MİNİ</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>1.3824</KdvMat>
+    <Birim>1.6</Birim>
+    <PROTUTAR>19.200000000000003</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>18.662399999999998</Toplam>
+    <isk1>1.92</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 443</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI MİNİ</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>1.3824</KdvMat>
+    <Birim>1.6</Birim>
+    <PROTUTAR>19.200000000000003</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>18.662399999999998</Toplam>
+    <isk1>1.92</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 447</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI MİNİ</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>1.3824</KdvMat>
+    <Birim>1.6</Birim>
+    <PROTUTAR>19.200000000000003</PROTUTAR>
+    <sip_iskonto_1>10</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>18.662399999999998</Toplam>
+    <isk1>1.92</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2212</PRKOD>
+    <PRUNVAN>YENIKARADENIZ </PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>07</PLASIYER>
+    <ARABAYIADI>PR.2212</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,609 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>3705</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>590</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>590</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3345</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>490</Birim>
+    <PROTUTAR>1960</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1960</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3502</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 300-320 GR.</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>780</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>780</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3528</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 300-320 GR.</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>780</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>780</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3609</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>6</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>1770</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1770</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3611</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>1180</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1180</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3706</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>1180</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1180</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3716</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>885</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>885</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9503</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL YUVARLAK KUTU (24 ADET)</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>540</Birim>
+    <PROTUTAR>1080</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1080</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9505</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL MILKSHAKE BARDAĞI(8 ADET)</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>270</Birim>
+    <PROTUTAR>540</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9508</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL MEYVE SUYU(8 ADET)</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>270</Birim>
+    <PROTUTAR>540</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9509</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL DONDURMA(8 ADET)</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>270</Birim>
+    <PROTUTAR>540</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9510</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL MİNİ CEP TİPİ(8 ADET)</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>60</Birim>
+    <PROTUTAR>1800</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1800</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9511</sip_stok_kod>
+    <sto_isim>DESENLİ CEP MENDİLİ (9 PAKET)</sto_isim>
+    <sip_miktar>32</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>54</Birim>
+    <PROTUTAR>1728</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1728</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9512</sip_stok_kod>
+    <sto_isim>DESENLİ  MENDİLSTAND (24 PAKET)</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>432</Birim>
+    <PROTUTAR>864</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>864</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9513</sip_stok_kod>
+    <sto_isim>RULO MENDİL (6 KUTU)</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>96</Birim>
+    <PROTUTAR>192</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>192</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3023</sip_stok_kod>
+    <sto_isim>SULU ANAHTARLIK (12 ADET)</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>480</Birim>
+    <PROTUTAR>1920</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1920</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3027</sip_stok_kod>
+    <sto_isim>PLASTİK MİNİ AKSESUAR(200 ADET)</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>400</Birim>
+    <PROTUTAR>1600</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1600</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3252</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3254</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>780</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>780</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3258</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>8</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>1560</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1560</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3259</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>780</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>780</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3264</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>390</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>390</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3280</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>390</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>390</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3281</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>780</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>780</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3282</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>390</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>390</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43096</PRKOD>
+    <PRUNVAN>KOTONTEKS</PRUNVAN>
+    <CKKOD>06002</CKKOD>
+    <CKUNVAN>KADIOĞLU KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43096</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

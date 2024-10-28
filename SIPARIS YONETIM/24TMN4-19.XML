@@ -1,0 +1,279 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>3609</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>9</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>5310</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2655</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3611</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>7080</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3811</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>24</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>14160</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7080</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9503</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL YUVARLAK KUTU (24 ADET)</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>540</Birim>
+    <PROTUTAR>5400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>5400</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9511</sip_stok_kod>
+    <sto_isim>DESENLİ CEP MENDİLİ (9 PAKET)</sto_isim>
+    <sip_miktar>64</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>63</Birim>
+    <PROTUTAR>4032</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4032</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3250</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR KARIŞIK</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>9750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4875</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3332</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>40</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>160</Birim>
+    <PROTUTAR>12800</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>6400</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3345</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>490</Birim>
+    <PROTUTAR>11760</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>5880</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3500</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 300-320 GR. KARIŞIK</sto_isim>
+    <sip_miktar>60</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>23400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>11700</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3601</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>7080</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3605</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>7080</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43391</PRKOD>
+    <PRUNVAN>VINMAR</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-43391</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

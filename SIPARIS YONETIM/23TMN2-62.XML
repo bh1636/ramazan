@@ -1,0 +1,455 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>2511</sip_stok_kod>
+    <sto_isim>EVRAK ÇANTASI</sto_isim>
+    <sip_miktar>60</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>216</KdvMat>
+    <Birim>20</Birim>
+    <PROTUTAR>1200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1416</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3509</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>540</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>3000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3510</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>540</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>3000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3512</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>540</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>3000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3526</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>540</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>3000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4033</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. HOLOGRAM PEMBE</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>15</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4053</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ MOR</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>63</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>350</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>413</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4054</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ YEŞİL</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>63</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>350</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>413</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4055</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ MAVİ</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>63</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>350</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>413</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4056</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ PEMBE</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>63</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>350</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>413</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6901</sip_stok_kod>
+    <sto_isim>KÖPÜK 3 cm. TOP 150 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6902</sip_stok_kod>
+    <sto_isim>KÖPÜK 5 cm. TOP 75 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6903</sip_stok_kod>
+    <sto_isim>KÖPÜK 6 cm. TOP 50 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6906</sip_stok_kod>
+    <sto_isim>KÖPÜK 12 cm. TOP 5  ADET</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>135</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>885</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6939</sip_stok_kod>
+    <sto_isim>KÖPÜK 8 cm. TOP 16 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6940</sip_stok_kod>
+    <sto_isim>KÖPÜK 10 cm. TOP 8 ADET</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>135</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>885</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6961</sip_stok_kod>
+    <sto_isim>KÖPÜK 2 cm. TOP 180 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>6962</sip_stok_kod>
+    <sto_isim>KÖPÜK 4 cm. TOP 80 ADET</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>67.5</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>375</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>442.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 2501</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI</sto_isim>
+    <sip_miktar>60</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>48</KdvMat>
+    <Birim>10</Birim>
+    <PROTUTAR>60</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>648</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40317</PRKOD>
+    <PRUNVAN>YUCEKAYALAR  INS</PRUNVAN>
+    <CKKOD>34012</CKKOD>
+    <CKUNVAN>TİMON TOPLU TÜKETİM SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>05</PLASIYER>
+    <ARABAYIADI>PR-40317</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

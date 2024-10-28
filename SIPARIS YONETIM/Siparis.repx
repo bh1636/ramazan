@@ -1,0 +1,969 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>Yazirma, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyFullName>
+///   <AssemblyLocation>C:\NRS FUAR\SIPARIS YONETIM\Yazirma.exe</AssemblyLocation>
+///   <TypeName>Yazirma.Siparis</TypeName>
+///   <Localization>tr-TR</Localization>
+///   <References>
+///     <Reference Path="C:\NRS FUAR\SIPARIS YONETIM\Yazirma.exe" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Data.SqlXml\2.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Security\2.0.0.0__b03f5f7f11d50a3a\System.Security.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\2.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Deployment\2.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\Microsoft.VisualC\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualC.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.DirectoryServices\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Drawing.Design\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.Design.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Web.RegularExpressions\2.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.DirectoryServices.Protocols\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.Protocols.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.ServiceProcess\2.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll" />
+///     <Reference Path="C:\Windows\assembly\GAC_MSIL\System.Configuration.Install\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.Install.dll" />
+///   </References>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class Siparis : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.XRLabel xrSatirIskonto1;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel29;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel27;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel2;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel6;
+        private DevExpress.XtraReports.UI.XRLabel xrToplam;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel31;
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private DevExpress.XtraReports.UI.XRLabel xrAnaCariKod;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel13;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel12;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel8;
+        private DevExpress.XtraReports.UI.XRLabel xrPerakendeFirmaTelefon;
+        private DevExpress.XtraReports.UI.XRLabel xrPerakendeFirmaVdVno;
+        private DevExpress.XtraReports.UI.XRLabel xrPerakendeFirmaAdres;
+        private DevExpress.XtraReports.UI.XRLabel xrPerakendeFirmaAdi;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel10;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel9;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel30;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel3;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel15;
+        private DevExpress.XtraReports.UI.XRLine xrLine3;
+        private DevExpress.XtraReports.UI.XRLine xrLine1;
+        private DevExpress.XtraReports.UI.XRLabel xrBelgeNo;
+        private DevExpress.XtraReports.UI.XRLabel xrtarih;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel21;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel19;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel16;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel14;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel7;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel5;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel4;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel1;
+        private DevExpress.XtraReports.UI.XRLabel xraratoplam;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel26;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel23;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel17;
+        private DevExpress.XtraReports.UI.XRLabel xrBirim;
+        private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
+        private DevExpress.XtraReports.UI.XRLabel xrIskonto2;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel22;
+        private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
+        private DevExpress.XtraReports.UI.XRLabel xrBFiyat;
+        private DevExpress.XtraReports.UI.XRLabel xrStokIsim;
+        private DevExpress.XtraReports.UI.XRLabel xrMiktar;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel28;
+        private DevExpress.XtraReports.UI.XRLabel xrKdvKdv;
+        private DevExpress.XtraReports.UI.XRLabel LBLİSKONTO2;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel24;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel18;
+        private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel11;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel25;
+        private DevExpress.XtraReports.UI.XRLabel LBLİSKOTO1;
+        private DevExpress.XtraReports.UI.XRLabel xrkdv;
+        private DevExpress.XtraReports.UI.XRLabel xrStokKod;
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.ReportFooterBand ReportFooter;
+        private DevExpress.XtraReports.UI.XRLabel xrgeneltoplam;
+        private DevExpress.XtraReports.UI.XRLabel xrPlasiyer;
+        private System.Resources.ResourceManager _resources;
+        public Siparis() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = @"zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAABAAAAAAAAAFBBRFBBRFAF9WM2AAAAAOMAAAAiWAB0AHIAYQBSAGUAcABvAHIAdAAuAEUAdgBlAG4AdABzAAAAAAABKXhyQkZpeWF0LFRleHRDaGFuZ2VkLHhyQkZpeWF0X1RleHRDaGFuZ2Vk";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            DevExpress.XtraReports.UI.XRSummary summary1 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary2 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary3 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary4 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary5 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary6 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary7 = new DevExpress.XtraReports.UI.XRSummary();
+            DevExpress.XtraReports.UI.XRSummary summary8 = new DevExpress.XtraReports.UI.XRSummary();
+            this.xrSatirIskonto1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel29 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel27 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrToplam = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel31 = new DevExpress.XtraReports.UI.XRLabel();
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xraratoplam = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel26 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel16 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel30 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLine1 = new DevExpress.XtraReports.UI.XRLine();
+            this.xrLabel23 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel17 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrBirim = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel14 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel13 = new DevExpress.XtraReports.UI.XRLabel();
+            this.bottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.xrPerakendeFirmaVdVno = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPerakendeFirmaAdi = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPerakendeFirmaAdres = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrIskonto2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel22 = new DevExpress.XtraReports.UI.XRLabel();
+            this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.xrBelgeNo = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrBFiyat = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrStokIsim = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrMiktar = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel28 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrKdvKdv = new DevExpress.XtraReports.UI.XRLabel();
+            this.LBLİSKONTO2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPerakendeFirmaTelefon = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLine3 = new DevExpress.XtraReports.UI.XRLine();
+            this.xrLabel24 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel15 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel18 = new DevExpress.XtraReports.UI.XRLabel();
+            this.topMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel10 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel25 = new DevExpress.XtraReports.UI.XRLabel();
+            this.LBLİSKOTO1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrtarih = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrkdv = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrStokKod = new DevExpress.XtraReports.UI.XRLabel();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel19 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
+            this.ReportFooter = new DevExpress.XtraReports.UI.ReportFooterBand();
+            this.xrLabel21 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPlasiyer = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel12 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrAnaCariKod = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrgeneltoplam = new DevExpress.XtraReports.UI.XRLabel();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // xrSatirIskonto1
+            // 
+            this.xrSatirIskonto1.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrSatirIskonto1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrSatirIskonto1.LocationFloat = new DevExpress.Utils.PointFloat(546.9998F, 0F);
+            this.xrSatirIskonto1.Name = "xrSatirIskonto1";
+            this.xrSatirIskonto1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrSatirIskonto1.SizeF = new System.Drawing.SizeF(43F, 18F);
+            this.xrSatirIskonto1.StylePriority.UseBorders = false;
+            this.xrSatirIskonto1.Text = "0.00";
+            this.xrSatirIskonto1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel29
+            // 
+            this.xrLabel29.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel29.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel29.LocationFloat = new DevExpress.Utils.PointFloat(517F, 51F);
+            this.xrLabel29.Name = "xrLabel29";
+            this.xrLabel29.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel29.SizeF = new System.Drawing.SizeF(108F, 15F);
+            this.xrLabel29.StylePriority.UseBackColor = false;
+            this.xrLabel29.StylePriority.UseFont = false;
+            this.xrLabel29.StylePriority.UseTextAlignment = false;
+            this.xrLabel29.Text = "İSKONTO         2:";
+            this.xrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel27
+            // 
+            this.xrLabel27.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel27.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel27.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 81.33331F);
+            this.xrLabel27.Name = "xrLabel27";
+            this.xrLabel27.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel27.SizeF = new System.Drawing.SizeF(459F, 14.99999F);
+            this.xrLabel27.StylePriority.UseBackColor = false;
+            this.xrLabel27.StylePriority.UseFont = false;
+            this.xrLabel27.StylePriority.UseTextAlignment = false;
+            this.xrLabel27.Text = "TEKLİF FORMUDUR. MALİ DEĞERİ YOKTUR.";
+            this.xrLabel27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel2
+            // 
+            this.xrLabel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel2.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(545.9998F, 230.0419F);
+            this.xrLabel2.Name = "xrLabel2";
+            this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(42F, 17F);
+            this.xrLabel2.StylePriority.UseBackColor = false;
+            this.xrLabel2.Text = "İSK-1";
+            this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel6
+            // 
+            this.xrLabel6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel6.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(486.9998F, 230.0419F);
+            this.xrLabel6.Name = "xrLabel6";
+            this.xrLabel6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel6.SizeF = new System.Drawing.SizeF(59F, 17F);
+            this.xrLabel6.StylePriority.UseBackColor = false;
+            this.xrLabel6.Text = "B.FİYAT";
+            this.xrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrToplam
+            // 
+            this.xrToplam.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrToplam.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrToplam.LocationFloat = new DevExpress.Utils.PointFloat(666.9583F, 0F);
+            this.xrToplam.Name = "xrToplam";
+            this.xrToplam.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrToplam.SizeF = new System.Drawing.SizeF(65.58325F, 18F);
+            this.xrToplam.StylePriority.UseBorders = false;
+            summary1.FormatString = "{0:$0.00}";
+            this.xrToplam.Summary = summary1;
+            this.xrToplam.Text = "0.00";
+            this.xrToplam.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel31
+            // 
+            this.xrLabel31.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel31.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel31.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel31.LocationFloat = new DevExpress.Utils.PointFloat(113F, 230.0419F);
+            this.xrLabel31.Name = "xrLabel31";
+            this.xrLabel31.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel31.SizeF = new System.Drawing.SizeF(117.5F, 16.99997F);
+            this.xrLabel31.StylePriority.UseBackColor = false;
+            this.xrLabel31.Text = "STOK KOD";
+            this.xrLabel31.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // PageHeader
+            // 
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label1,
+                        this.xrAnaCariKod,
+                        this.xrLabel13,
+                        this.xrLabel12,
+                        this.xrLabel8,
+                        this.xrPerakendeFirmaTelefon,
+                        this.xrPerakendeFirmaVdVno,
+                        this.xrPerakendeFirmaAdres,
+                        this.xrPerakendeFirmaAdi,
+                        this.xrLabel10,
+                        this.xrLabel9,
+                        this.xrLabel31,
+                        this.xrLabel30,
+                        this.xrLabel2,
+                        this.xrLabel3,
+                        this.xrLabel15,
+                        this.xrLine3,
+                        this.xrLine1,
+                        this.xrBelgeNo,
+                        this.xrtarih,
+                        this.xrLabel21,
+                        this.xrLabel19,
+                        this.xrLabel16,
+                        this.xrLabel14,
+                        this.xrLabel7,
+                        this.xrLabel6,
+                        this.xrLabel5,
+                        this.xrLabel4,
+                        this.xrLabel1});
+            this.PageHeader.HeightF = 249.6669F;
+            this.PageHeader.Name = "PageHeader";
+            this.PageHeader.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.PageHeader.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel1
+            // 
+            this.xrLabel1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 20F);
+            this.xrLabel1.Name = "xrLabel1";
+            this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel1.SizeF = new System.Drawing.SizeF(725.25F, 31.00002F);
+            this.xrLabel1.Text = "TEKLİF FORMU";
+            this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xraratoplam
+            // 
+            this.xraratoplam.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xraratoplam.LocationFloat = new DevExpress.Utils.PointFloat(633F, 17F);
+            this.xraratoplam.Name = "xraratoplam";
+            this.xraratoplam.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xraratoplam.SizeF = new System.Drawing.SizeF(100F, 15F);
+            summary2.FormatString = "{0:$0.00}";
+            this.xraratoplam.Summary = summary2;
+            this.xraratoplam.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel9
+            // 
+            this.xrLabel9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel9.Font = new System.Drawing.Font("Tahoma", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.xrLabel9.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 111F);
+            this.xrLabel9.Name = "xrLabel9";
+            this.xrLabel9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel9.SizeF = new System.Drawing.SizeF(725.25F, 14.99998F);
+            this.xrLabel9.StylePriority.UseBackColor = false;
+            this.xrLabel9.StylePriority.UseFont = false;
+            this.xrLabel9.StylePriority.UseTextAlignment = false;
+            this.xrLabel9.Text = "TOPTANCI FİRMA";
+            this.xrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel26
+            // 
+            this.xrLabel26.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel26.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel26.LocationFloat = new DevExpress.Utils.PointFloat(517F, 34F);
+            this.xrLabel26.Name = "xrLabel26";
+            this.xrLabel26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel26.SizeF = new System.Drawing.SizeF(108F, 15F);
+            this.xrLabel26.StylePriority.UseBackColor = false;
+            this.xrLabel26.StylePriority.UseFont = false;
+            this.xrLabel26.StylePriority.UseTextAlignment = false;
+            this.xrLabel26.Text = "İSKONTO         1:";
+            this.xrLabel26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel16
+            // 
+            this.xrLabel16.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel16.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel16.LocationFloat = new DevExpress.Utils.PointFloat(10.4167F, 146.0001F);
+            this.xrLabel16.Name = "xrLabel16";
+            this.xrLabel16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel16.SizeF = new System.Drawing.SizeF(83.99997F, 17F);
+            this.xrLabel16.StylePriority.UseBackColor = false;
+            this.xrLabel16.StylePriority.UseTextAlignment = false;
+            this.xrLabel16.Text = "UNVAN           :";
+            this.xrLabel16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel30
+            // 
+            this.xrLabel30.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel30.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 13.00002F);
+            this.xrLabel30.Name = "xrLabel30";
+            this.xrLabel30.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel30.SizeF = new System.Drawing.SizeF(459F, 17F);
+            this.xrLabel30.StylePriority.UseTextAlignment = false;
+            this.xrLabel30.Text = "HELVACIOĞLU KIRTASİYE";
+            this.xrLabel30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLine1
+            // 
+            this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 105F);
+            this.xrLine1.Name = "xrLine1";
+            this.xrLine1.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.xrLine1.SizeF = new System.Drawing.SizeF(725F, 2F);
+            // 
+            // xrLabel23
+            // 
+            this.xrLabel23.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel23.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel23.LocationFloat = new DevExpress.Utils.PointFloat(517F, 17F);
+            this.xrLabel23.Name = "xrLabel23";
+            this.xrLabel23.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel23.SizeF = new System.Drawing.SizeF(108F, 15F);
+            this.xrLabel23.StylePriority.UseBackColor = false;
+            this.xrLabel23.StylePriority.UseFont = false;
+            this.xrLabel23.StylePriority.UseTextAlignment = false;
+            this.xrLabel23.Text = "ARA  TOPLAM   :";
+            this.xrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel17
+            // 
+            this.xrLabel17.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel17.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(517F, 69F);
+            this.xrLabel17.Name = "xrLabel17";
+            this.xrLabel17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel17.SizeF = new System.Drawing.SizeF(108F, 15F);
+            this.xrLabel17.StylePriority.UseBackColor = false;
+            this.xrLabel17.StylePriority.UseFont = false;
+            this.xrLabel17.StylePriority.UseTextAlignment = false;
+            this.xrLabel17.Text = "ARA TUTAR      :";
+            this.xrLabel17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrBirim
+            // 
+            this.xrBirim.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrBirim.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrBirim.LocationFloat = new DevExpress.Utils.PointFloat(68.00011F, 0F);
+            this.xrBirim.Name = "xrBirim";
+            this.xrBirim.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrBirim.SizeF = new System.Drawing.SizeF(45F, 18F);
+            this.xrBirim.StylePriority.UseBorders = false;
+            this.xrBirim.StylePriority.UseTextAlignment = false;
+            this.xrBirim.Text = "Ad";
+            this.xrBirim.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel14
+            // 
+            this.xrLabel14.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 30.00002F);
+            this.xrLabel14.Multiline = true;
+            this.xrLabel14.Name = "xrLabel14";
+            this.xrLabel14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel14.SizeF = new System.Drawing.SizeF(459F, 43.00001F);
+            this.xrLabel14.StylePriority.UseFont = false;
+            this.xrLabel14.Text = "Telefon  : 0 212 659 82 22\r\nFax        :  0 212 659 82 23\r\ne-mail     :info@helva" +
+                "cioglukirtasiye.com";
+            this.xrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel5
+            // 
+            this.xrLabel5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel5.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(10.41668F, 230.0419F);
+            this.xrLabel5.Name = "xrLabel5";
+            this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel5.SizeF = new System.Drawing.SizeF(60F, 17F);
+            this.xrLabel5.StylePriority.UseBackColor = false;
+            this.xrLabel5.StylePriority.UseBorders = false;
+            this.xrLabel5.Text = "MİKTAR";
+            this.xrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel13
+            // 
+            this.xrLabel13.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel13.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel13.LocationFloat = new DevExpress.Utils.PointFloat(10.4167F, 128F);
+            this.xrLabel13.Name = "xrLabel13";
+            this.xrLabel13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel13.SizeF = new System.Drawing.SizeF(84F, 17F);
+            this.xrLabel13.StylePriority.UseBackColor = false;
+            this.xrLabel13.StylePriority.UseTextAlignment = false;
+            this.xrLabel13.Text = "CARI KOD ";
+            this.xrLabel13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // bottomMarginBand1
+            // 
+            this.bottomMarginBand1.HeightF = 40F;
+            this.bottomMarginBand1.Name = "bottomMarginBand1";
+            // 
+            // xrPerakendeFirmaVdVno
+            // 
+            this.xrPerakendeFirmaVdVno.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrPerakendeFirmaVdVno.LocationFloat = new DevExpress.Utils.PointFloat(355.2083F, 185.0002F);
+            this.xrPerakendeFirmaVdVno.Name = "xrPerakendeFirmaVdVno";
+            this.xrPerakendeFirmaVdVno.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPerakendeFirmaVdVno.SizeF = new System.Drawing.SizeF(377.3333F, 17F);
+            this.xrPerakendeFirmaVdVno.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrPerakendeFirmaAdi
+            // 
+            this.xrPerakendeFirmaAdi.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrPerakendeFirmaAdi.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 186.0001F);
+            this.xrPerakendeFirmaAdi.Name = "xrPerakendeFirmaAdi";
+            this.xrPerakendeFirmaAdi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPerakendeFirmaAdi.SizeF = new System.Drawing.SizeF(338.7916F, 16.99998F);
+            this.xrPerakendeFirmaAdi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrPerakendeFirmaAdres
+            // 
+            this.xrPerakendeFirmaAdres.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrPerakendeFirmaAdres.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 204.0002F);
+            this.xrPerakendeFirmaAdres.Name = "xrPerakendeFirmaAdres";
+            this.xrPerakendeFirmaAdres.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPerakendeFirmaAdres.SizeF = new System.Drawing.SizeF(338.7916F, 17F);
+            this.xrPerakendeFirmaAdres.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrIskonto2
+            // 
+            this.xrIskonto2.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrIskonto2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrIskonto2.LocationFloat = new DevExpress.Utils.PointFloat(589.9998F, 0F);
+            this.xrIskonto2.Name = "xrIskonto2";
+            this.xrIskonto2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrIskonto2.SizeF = new System.Drawing.SizeF(40F, 18F);
+            this.xrIskonto2.StylePriority.UseBorders = false;
+            this.xrIskonto2.Text = "0.00";
+            this.xrIskonto2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel22
+            // 
+            this.xrLabel22.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel22.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.xrLabel22.LocationFloat = new DevExpress.Utils.PointFloat(263.2083F, 17.00001F);
+            this.xrLabel22.Name = "xrLabel22";
+            this.xrLabel22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel22.SizeF = new System.Drawing.SizeF(203.7917F, 17.99999F);
+            this.xrLabel22.StylePriority.UseBackColor = false;
+            this.xrLabel22.StylePriority.UseFont = false;
+            this.xrLabel22.StylePriority.UseTextAlignment = false;
+            this.xrLabel22.Text = "SİPARİŞİ ALAN";
+            this.xrLabel22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // PageFooter
+            // 
+            this.PageFooter.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.PageFooter.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.PageFooter.HeightF = 7.625008F;
+            this.PageFooter.Name = "PageFooter";
+            this.PageFooter.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.PageFooter.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrBelgeNo
+            // 
+            this.xrBelgeNo.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrBelgeNo.LocationFloat = new DevExpress.Utils.PointFloat(600F, 54.00002F);
+            this.xrBelgeNo.Name = "xrBelgeNo";
+            this.xrBelgeNo.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrBelgeNo.SizeF = new System.Drawing.SizeF(133F, 19F);
+            this.xrBelgeNo.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrBFiyat
+            // 
+            this.xrBFiyat.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrBFiyat.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrBFiyat.LocationFloat = new DevExpress.Utils.PointFloat(487.4166F, 0F);
+            this.xrBFiyat.Name = "xrBFiyat";
+            this.xrBFiyat.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrBFiyat.SizeF = new System.Drawing.SizeF(59F, 18F);
+            this.xrBFiyat.StylePriority.UseBorders = false;
+            summary3.FormatString = "{0:$0.00}";
+            this.xrBFiyat.Summary = summary3;
+            this.xrBFiyat.Text = "0.00";
+            this.xrBFiyat.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel3
+            // 
+            this.xrLabel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel3.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(230.5F, 230.0419F);
+            this.xrLabel3.Name = "xrLabel3";
+            this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel3.SizeF = new System.Drawing.SizeF(256.4998F, 16.99997F);
+            this.xrLabel3.StylePriority.UseBackColor = false;
+            this.xrLabel3.StylePriority.UseBorders = false;
+            this.xrLabel3.Text = "STOK İSİM";
+            this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel4
+            // 
+            this.xrLabel4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel4.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+                        | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(70.41673F, 230.0419F);
+            this.xrLabel4.Name = "xrLabel4";
+            this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel4.SizeF = new System.Drawing.SizeF(45F, 16.99998F);
+            this.xrLabel4.StylePriority.UseBackColor = false;
+            this.xrLabel4.Text = "BİRİM";
+            this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel7
+            // 
+            this.xrLabel7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel7.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel7.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(666.9583F, 230.0419F);
+            this.xrLabel7.Name = "xrLabel7";
+            this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel7.SizeF = new System.Drawing.SizeF(65.58331F, 16.99998F);
+            this.xrLabel7.StylePriority.UseBackColor = false;
+            this.xrLabel7.Text = "TOPLAM";
+            this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrStokIsim
+            // 
+            this.xrStokIsim.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrStokIsim.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrStokIsim.LocationFloat = new DevExpress.Utils.PointFloat(230.5001F, 0F);
+            this.xrStokIsim.Name = "xrStokIsim";
+            this.xrStokIsim.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrStokIsim.SizeF = new System.Drawing.SizeF(256.4999F, 18F);
+            this.xrStokIsim.StylePriority.UseBorders = false;
+            this.xrStokIsim.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrMiktar
+            // 
+            this.xrMiktar.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrMiktar.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrMiktar.LocationFloat = new DevExpress.Utils.PointFloat(9.999998F, 0F);
+            this.xrMiktar.Name = "xrMiktar";
+            this.xrMiktar.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrMiktar.SizeF = new System.Drawing.SizeF(60.41669F, 18F);
+            this.xrMiktar.StylePriority.UseBorders = false;
+            this.xrMiktar.Text = "0.00";
+            this.xrMiktar.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel28
+            // 
+            this.xrLabel28.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel28.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel28.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 103.3333F);
+            this.xrLabel28.Name = "xrLabel28";
+            this.xrLabel28.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel28.SizeF = new System.Drawing.SizeF(459F, 14.99999F);
+            this.xrLabel28.StylePriority.UseBackColor = false;
+            this.xrLabel28.StylePriority.UseFont = false;
+            this.xrLabel28.StylePriority.UseTextAlignment = false;
+            this.xrLabel28.Text = "FİYATLARIMIZA K.D.V DAHİL DEĞİLDİR.";
+            this.xrLabel28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrKdvKdv
+            // 
+            this.xrKdvKdv.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrKdvKdv.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrKdvKdv.LocationFloat = new DevExpress.Utils.PointFloat(629.9998F, 0F);
+            this.xrKdvKdv.Name = "xrKdvKdv";
+            this.xrKdvKdv.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrKdvKdv.SizeF = new System.Drawing.SizeF(37F, 18F);
+            this.xrKdvKdv.StylePriority.UseBorders = false;
+            this.xrKdvKdv.Text = "0.00";
+            this.xrKdvKdv.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // LBLİSKONTO2
+            // 
+            this.LBLİSKONTO2.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.LBLİSKONTO2.LocationFloat = new DevExpress.Utils.PointFloat(633F, 51F);
+            this.LBLİSKONTO2.Name = "LBLİSKONTO2";
+            this.LBLİSKONTO2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.LBLİSKONTO2.SizeF = new System.Drawing.SizeF(100F, 15F);
+            summary4.FormatString = "{0:$0.00}";
+            this.LBLİSKONTO2.Summary = summary4;
+            this.LBLİSKONTO2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrPerakendeFirmaTelefon
+            // 
+            this.xrPerakendeFirmaTelefon.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrPerakendeFirmaTelefon.LocationFloat = new DevExpress.Utils.PointFloat(355.2083F, 204.0002F);
+            this.xrPerakendeFirmaTelefon.Name = "xrPerakendeFirmaTelefon";
+            this.xrPerakendeFirmaTelefon.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPerakendeFirmaTelefon.SizeF = new System.Drawing.SizeF(377.3333F, 17F);
+            this.xrPerakendeFirmaTelefon.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLine3
+            // 
+            this.xrLine3.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 10F);
+            this.xrLine3.Name = "xrLine3";
+            this.xrLine3.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.xrLine3.SizeF = new System.Drawing.SizeF(725F, 2F);
+            // 
+            // xrLabel24
+            // 
+            this.xrLabel24.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel24.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(517F, 85.99997F);
+            this.xrLabel24.Name = "xrLabel24";
+            this.xrLabel24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel24.SizeF = new System.Drawing.SizeF(108F, 15F);
+            this.xrLabel24.StylePriority.UseBackColor = false;
+            this.xrLabel24.StylePriority.UseFont = false;
+            this.xrLabel24.StylePriority.UseTextAlignment = false;
+            this.xrLabel24.Text = "KDV                   :";
+            this.xrLabel24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel15
+            // 
+            this.xrLabel15.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel15.LocationFloat = new DevExpress.Utils.PointFloat(99.99997F, 146.0001F);
+            this.xrLabel15.Name = "xrLabel15";
+            this.xrLabel15.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel15.SizeF = new System.Drawing.SizeF(633.25F, 17F);
+            this.xrLabel15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel18
+            // 
+            this.xrLabel18.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel18.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.xrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 17.00001F);
+            this.xrLabel18.Name = "xrLabel18";
+            this.xrLabel18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel18.SizeF = new System.Drawing.SizeF(203.7917F, 17.99999F);
+            this.xrLabel18.StylePriority.UseBackColor = false;
+            this.xrLabel18.StylePriority.UseFont = false;
+            this.xrLabel18.StylePriority.UseTextAlignment = false;
+            this.xrLabel18.Text = "SİPARİŞİ VEREN";
+            this.xrLabel18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // topMarginBand1
+            // 
+            this.topMarginBand1.HeightF = 40F;
+            this.topMarginBand1.Name = "topMarginBand1";
+            // 
+            // xrLabel11
+            // 
+            this.xrLabel11.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(633.0001F, 69F);
+            this.xrLabel11.Name = "xrLabel11";
+            this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel11.SizeF = new System.Drawing.SizeF(100F, 15F);
+            summary5.FormatString = "{0:$0.00}";
+            this.xrLabel11.Summary = summary5;
+            this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel10
+            // 
+            this.xrLabel10.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel10.Font = new System.Drawing.Font("Tahoma", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(8.000009F, 169.0001F);
+            this.xrLabel10.Name = "xrLabel10";
+            this.xrLabel10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel10.SizeF = new System.Drawing.SizeF(725.2499F, 16.99998F);
+            this.xrLabel10.StylePriority.UseBackColor = false;
+            this.xrLabel10.StylePriority.UseFont = false;
+            this.xrLabel10.Text = "PERAKENDE FİRMA ";
+            this.xrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel25
+            // 
+            this.xrLabel25.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel25.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel25.LocationFloat = new DevExpress.Utils.PointFloat(517F, 103F);
+            this.xrLabel25.Name = "xrLabel25";
+            this.xrLabel25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel25.SizeF = new System.Drawing.SizeF(108F, 15F);
+            this.xrLabel25.StylePriority.UseBackColor = false;
+            this.xrLabel25.StylePriority.UseFont = false;
+            this.xrLabel25.StylePriority.UseTextAlignment = false;
+            this.xrLabel25.Text = "TOPLAM            :";
+            this.xrLabel25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // LBLİSKOTO1
+            // 
+            this.LBLİSKOTO1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.LBLİSKOTO1.LocationFloat = new DevExpress.Utils.PointFloat(633F, 34F);
+            this.LBLİSKOTO1.Name = "LBLİSKOTO1";
+            this.LBLİSKOTO1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.LBLİSKOTO1.SizeF = new System.Drawing.SizeF(100F, 15F);
+            summary6.FormatString = "{0:$0.00}";
+            this.LBLİSKOTO1.Summary = summary6;
+            this.LBLİSKOTO1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrtarih
+            // 
+            this.xrtarih.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrtarih.LocationFloat = new DevExpress.Utils.PointFloat(600F, 13.00002F);
+            this.xrtarih.Name = "xrtarih";
+            this.xrtarih.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrtarih.SizeF = new System.Drawing.SizeF(133F, 17F);
+            this.xrtarih.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrkdv
+            // 
+            this.xrkdv.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrkdv.LocationFloat = new DevExpress.Utils.PointFloat(633F, 85.99997F);
+            this.xrkdv.Name = "xrkdv";
+            this.xrkdv.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrkdv.SizeF = new System.Drawing.SizeF(100F, 15F);
+            summary7.FormatString = "{0:$0.00}";
+            this.xrkdv.Summary = summary7;
+            this.xrkdv.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrStokKod
+            // 
+            this.xrStokKod.Borders = DevExpress.XtraPrinting.BorderSide.Bottom;
+            this.xrStokKod.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrStokKod.LocationFloat = new DevExpress.Utils.PointFloat(113.0001F, 0F);
+            this.xrStokKod.Name = "xrStokKod";
+            this.xrStokKod.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrStokKod.SizeF = new System.Drawing.SizeF(117.4999F, 18F);
+            this.xrStokKod.StylePriority.UseBorders = false;
+            this.xrStokKod.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // Detail
+            // 
+            this.Detail.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.xrKdvKdv,
+                        this.xrIskonto2,
+                        this.xrStokKod,
+                        this.xrSatirIskonto1,
+                        this.xrStokIsim,
+                        this.xrBFiyat,
+                        this.xrToplam,
+                        this.xrMiktar,
+                        this.xrBirim});
+            this.Detail.HeightF = 18F;
+            this.Detail.KeepTogether = true;
+            this.Detail.Name = "Detail";
+            this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel19
+            // 
+            this.xrLabel19.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(475F, 13.00002F);
+            this.xrLabel19.Name = "xrLabel19";
+            this.xrLabel19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel19.SizeF = new System.Drawing.SizeF(126F, 17F);
+            this.xrLabel19.Text = "TARİH                      :";
+            this.xrLabel19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel8
+            // 
+            this.xrLabel8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel8.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel8.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(587.9998F, 230.0419F);
+            this.xrLabel8.Name = "xrLabel8";
+            this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel8.SizeF = new System.Drawing.SizeF(42F, 17F);
+            this.xrLabel8.StylePriority.UseBackColor = false;
+            this.xrLabel8.Text = "İSK-2";
+            this.xrLabel8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // ReportFooter
+            // 
+            this.ReportFooter.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.xrLabel28,
+                        this.xrLabel27,
+                        this.xrLabel22,
+                        this.xrLabel18,
+                        this.xrLabel11,
+                        this.xrLabel17,
+                        this.LBLİSKONTO2,
+                        this.xrLabel29,
+                        this.LBLİSKOTO1,
+                        this.xrLabel26,
+                        this.xrgeneltoplam,
+                        this.xrLabel24,
+                        this.xrLabel25,
+                        this.xrkdv,
+                        this.xraratoplam,
+                        this.xrLabel23,
+                        this.xrPlasiyer});
+            this.ReportFooter.HeightF = 126.2499F;
+            this.ReportFooter.Name = "ReportFooter";
+            this.ReportFooter.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.ReportFooter.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel21
+            // 
+            this.xrLabel21.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrLabel21.LocationFloat = new DevExpress.Utils.PointFloat(475F, 54.00002F);
+            this.xrLabel21.Name = "xrLabel21";
+            this.xrLabel21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel21.SizeF = new System.Drawing.SizeF(126F, 19F);
+            this.xrLabel21.StylePriority.UseFont = false;
+            this.xrLabel21.Text = "BELGE NO               :";
+            this.xrLabel21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrPlasiyer
+            // 
+            this.xrPlasiyer.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrPlasiyer.LocationFloat = new DevExpress.Utils.PointFloat(263.2083F, 45.99997F);
+            this.xrPlasiyer.Name = "xrPlasiyer";
+            this.xrPlasiyer.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPlasiyer.SizeF = new System.Drawing.SizeF(203.7917F, 20F);
+            this.xrPlasiyer.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel12
+            // 
+            this.xrLabel12.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xrLabel12.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
+                        | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel12.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(629.9998F, 230.0419F);
+            this.xrLabel12.Name = "xrLabel12";
+            this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel12.SizeF = new System.Drawing.SizeF(36.9585F, 17F);
+            this.xrLabel12.StylePriority.UseBackColor = false;
+            this.xrLabel12.Text = "KDV";
+            this.xrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrAnaCariKod
+            // 
+            this.xrAnaCariKod.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrAnaCariKod.LocationFloat = new DevExpress.Utils.PointFloat(99.29155F, 129.0001F);
+            this.xrAnaCariKod.Name = "xrAnaCariKod";
+            this.xrAnaCariKod.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrAnaCariKod.SizeF = new System.Drawing.SizeF(633.25F, 17F);
+            this.xrAnaCariKod.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrgeneltoplam
+            // 
+            this.xrgeneltoplam.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.xrgeneltoplam.LocationFloat = new DevExpress.Utils.PointFloat(633F, 103F);
+            this.xrgeneltoplam.Name = "xrgeneltoplam";
+            this.xrgeneltoplam.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrgeneltoplam.SizeF = new System.Drawing.SizeF(100F, 15F);
+            summary8.FormatString = "{0:$0.00}";
+            this.xrgeneltoplam.Summary = summary8;
+            this.xrgeneltoplam.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(10.4167F, 79.00003F);
+            this.label1.Name = "label1";
+            this.label1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.label1.SizeF = new System.Drawing.SizeF(718.5833F, 16F);
+            this.label1.StylePriority.UseBackColor = false;
+            this.label1.StylePriority.UseTextAlignment = false;
+            this.label1.Text = "Güncel Fiyat Listesi İçin  >>   www.helvacioglukirtasiye.com     Kullanıcı Adi:he" +
+                "lvaci  Şifre:19081983";
+            this.label1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // Siparis
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail,
+                        this.PageHeader,
+                        this.PageFooter,
+                        this.ReportFooter,
+                        this.topMarginBand1,
+                        this.bottomMarginBand1});
+            this.Margins = new System.Drawing.Printing.Margins(40, 48, 40, 40);
+            this.Name = "Siparis";
+            this.PageHeight = 1169;
+            this.PageWidth = 827;
+            this.PaperKind = System.Drawing.Printing.PaperKind.A4;
+            this.Version = "12.1";
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

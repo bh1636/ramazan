@@ -1,0 +1,477 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>1000</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Blokflüt Kutulu</sto_isim>
+    <sip_miktar>100</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>44</Birim>
+    <PROTUTAR>4400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4400</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3251</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3252</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3257</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3261</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3262</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3269</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3271</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3280</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3281</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3286</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>975</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>975</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3331</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>160</Birim>
+    <PROTUTAR>3200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3200</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3332</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>160</Birim>
+    <PROTUTAR>3200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3200</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3402</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>1200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1200</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3522</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>15</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>2925</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2925</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3527</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>3900</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3900</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3530</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>35</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>6825</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>6825</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3531</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>15</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>2925</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2925</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4091</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) KIRMIZI</sto_isim>
+    <sip_miktar>36</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>30</Birim>
+    <PROTUTAR>1080</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1080</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4093</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) BEYAZ</sto_isim>
+    <sip_miktar>36</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>30</Birim>
+    <PROTUTAR>1080</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1080</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42403</PRKOD>
+    <PRUNVAN>UNLEM KRT</PRUNVAN>
+    <CKKOD>01002</CKKOD>
+    <CKUNVAN>AKYOL DEFTER SAN.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>02</PLASIYER>
+    <ARABAYIADI>PR-42403</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

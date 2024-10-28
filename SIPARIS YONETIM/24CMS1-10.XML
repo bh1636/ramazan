@@ -1,0 +1,543 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>3455</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 300-320 GR.</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>9750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4875</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3457</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 300-320 GR.</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>9750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4875</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3468</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 300-320 GR.</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>9750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4875</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3528</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 300-320 GR.</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>11700</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>5850</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3703</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>5900</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>5900</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3713</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>40</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>11800</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>11800</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3714</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>2950</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2950</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3716</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU 420 GR.</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>2950</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2950</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3919</sip_stok_kod>
+    <sto_isim>TENİS TOPU 3'LÜ</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>60</Birim>
+    <PROTUTAR>1200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1200</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9503</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL YUVARLAK KUTU (24 ADET)</sto_isim>
+    <sip_miktar>16</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>540</Birim>
+    <PROTUTAR>8640</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>8640</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9504</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL KÖŞELİ KUTU(20 ADET)</sto_isim>
+    <sip_miktar>16</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>450</Birim>
+    <PROTUTAR>7200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7200</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9511</sip_stok_kod>
+    <sto_isim>DESENLİ CEP MENDİLİ (9 PAKET)</sto_isim>
+    <sip_miktar>96</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>54</Birim>
+    <PROTUTAR>5184</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>5184</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9512</sip_stok_kod>
+    <sto_isim>DESENLİ  MENDİLSTAND (24 PAKET)</sto_isim>
+    <sip_miktar>18</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>432</Birim>
+    <PROTUTAR>7776</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7776</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>1000</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Blokflüt Kutulu</sto_isim>
+    <sip_miktar>100</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>44</Birim>
+    <PROTUTAR>4400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4400</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>1032</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU MELODİKA 32 KLAVYELİ SOFT BAG</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>295</Birim>
+    <PROTUTAR>3540</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3022</sip_stok_kod>
+    <sto_isim>SQUISHY ANAHTARLIK(24 ADET)</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>480</Birim>
+    <PROTUTAR>1440</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1440</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3023</sip_stok_kod>
+    <sto_isim>SULU ANAHTARLIK (12 ADET)</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>480</Birim>
+    <PROTUTAR>2400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2400</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3252</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>11700</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>5850</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3266</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>9750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4875</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3273</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>9750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4875</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3296</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU 200-220 GR</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>195</Birim>
+    <PROTUTAR>4875</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4875</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3331</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>40</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>160</Birim>
+    <PROTUTAR>6400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>6400</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3332</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>40</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>160</Birim>
+    <PROTUTAR>6400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>6400</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-42618</PRKOD>
+    <PRUNVAN>MKM MAGAZACILIK</PRUNVAN>
+    <CKKOD>34009</CKKOD>
+    <CKUNVAN>CEMŞEN TANITIM ÜRÜNLERİ SAN.TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-42618</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

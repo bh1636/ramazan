@@ -1,0 +1,477 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>3265</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>450</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2500</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2950</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3261</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>450</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2500</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2950</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3262</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>450</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2500</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2950</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3270</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>360</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2360</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3264</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>540</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>3000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3540</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3509</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>360</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2360</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3301</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>144</KdvMat>
+    <Birim>32</Birim>
+    <PROTUTAR>800</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>944</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3524</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>360</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2360</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3507</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>450</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2500</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2950</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3517</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>360</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>2000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2360</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3607</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>585</KdvMat>
+    <Birim>130</Birim>
+    <PROTUTAR>3250</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3835</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3603</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>702</KdvMat>
+    <Birim>130</Birim>
+    <PROTUTAR>3900</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4602</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3604</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>468</KdvMat>
+    <Birim>130</Birim>
+    <PROTUTAR>2600</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>3068</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3606</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>30</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>702</KdvMat>
+    <Birim>130</Birim>
+    <PROTUTAR>3900</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4602</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3342</sip_stok_kod>
+    <sto_isim>BASKETBOL TOPU</sto_isim>
+    <sip_miktar>50</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2160</KdvMat>
+    <Birim>240</Birim>
+    <PROTUTAR>12000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14160</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3710</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>40</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>1080</KdvMat>
+    <Birim>150</Birim>
+    <PROTUTAR>6000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7080</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3708</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>40</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>1080</KdvMat>
+    <Birim>150</Birim>
+    <PROTUTAR>6000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7080</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3715</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>675</KdvMat>
+    <Birim>150</Birim>
+    <PROTUTAR>3750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4425</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3706</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>25</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>675</KdvMat>
+    <Birim>150</Birim>
+    <PROTUTAR>3750</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4425</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3923</sip_stok_kod>
+    <sto_isim>SAYAÇLI ATLAMA İPİ</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>58.5</KdvMat>
+    <Birim>65</Birim>
+    <PROTUTAR>325</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>383.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-40486</PRKOD>
+    <PRUNVAN>BATMAN BILGE KTP KRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-40486</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

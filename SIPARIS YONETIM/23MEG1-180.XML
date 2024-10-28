@@ -1,0 +1,653 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>3256</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>90</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>360100</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>590</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3269</sip_stok_kod>
+    <sto_isim>VOLEYBOL TOPU</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>90</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>500</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>590</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3511</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>72</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>472</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3526</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>72</KdvMat>
+    <Birim>100</Birim>
+    <PROTUTAR>400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>472</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3601</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>46.8</KdvMat>
+    <Birim>130</Birim>
+    <PROTUTAR>260</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>306.8</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3611</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>46.8</KdvMat>
+    <Birim>130</Birim>
+    <PROTUTAR>260</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>306.8</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3712</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>81</KdvMat>
+    <Birim>150</Birim>
+    <PROTUTAR>450</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>531</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4001</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KIRMIZI</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>50.4</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>280</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>330.4</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4003</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. SARI</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>7.56</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>42</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>49.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4008</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. TURUNCU</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>7.56</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>42</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>49.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4017</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. SİYAH</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>50.4</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>280</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>330.4</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4033</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. HOLOGRAM PEMBE</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>13.5</KdvMat>
+    <Birim>15</Birim>
+    <PROTUTAR>75</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>88.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4053</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ MOR</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>12.6</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>70</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>82.6</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4054</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ YEŞİL</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>12.6</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>70</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>82.6</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3707</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>108</KdvMat>
+    <Birim>150</Birim>
+    <PROTUTAR>600</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>708</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3710</sip_stok_kod>
+    <sto_isim>FUTBOL TOPU</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>81</KdvMat>
+    <Birim>150</Birim>
+    <PROTUTAR>450</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>531</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4091</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) KIRMIZI</sto_isim>
+    <sip_miktar>48</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>108</KdvMat>
+    <Birim>12.5</Birim>
+    <PROTUTAR>600</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>708</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4092</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) MACENTA</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>27</KdvMat>
+    <Birim>12.5</Birim>
+    <PROTUTAR>150</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>177</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4093</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) BEYAZ</sto_isim>
+    <sip_miktar>48</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>108</KdvMat>
+    <Birim>12.5</Birim>
+    <PROTUTAR>600</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>708</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4095</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) GÜMÜŞ</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>27</KdvMat>
+    <Birim>12.5</Birim>
+    <PROTUTAR>150</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>177</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4009</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. YEŞİL</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>7.56</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>42</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>49.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4011</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. BEYAZ</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>50.4</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>280</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>330.4</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4097</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) MAVİ</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>27</KdvMat>
+    <Birim>12.5</Birim>
+    <PROTUTAR>150</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>177</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7052</sip_stok_kod>
+    <sto_isim>İPLİ YUMURTA RENKLİ(10 ADET)</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>36</KdvMat>
+    <Birim>20</Birim>
+    <PROTUTAR>200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>236</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7375</sip_stok_kod>
+    <sto_isim>GÖZLÜ YÜZÜK</sto_isim>
+    <sip_miktar>72</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>16.2</KdvMat>
+    <Birim>1.25</Birim>
+    <PROTUTAR>90</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>106.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9503</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL(24 ADET)</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>56.16</KdvMat>
+    <Birim>312</Birim>
+    <PROTUTAR>312</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>368.15999999999997</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4055</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ MAVİ</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>12.6</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>70</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>82.6</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4056</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KALPLİ PEMBE</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>12.6</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>70</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>82.6</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-20767</PRKOD>
+    <PRUNVAN>AYDOGDU  KIRT</PRUNVAN>
+    <CKKOD>44001</CKKOD>
+    <CKUNVAN>DÜNYA AMBALAJ SAN.TİC.A.Ş.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-20767</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

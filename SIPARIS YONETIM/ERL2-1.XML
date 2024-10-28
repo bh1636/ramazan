@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>1000K</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Blokflüt Kutulu BEDELSİZ</sto_isim>
+    <sip_miktar>100</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>0</Birim>
+    <PROTUTAR>0</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>0</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>06001</PRKOD>
+    <PRUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>3</PLASIYER>
+    <ARABAYIADI>06001</ARABAYIADI>
+    <sip_aciklama2>Adet</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>2013</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Melodika 13 Klavyeli</sto_isim>
+    <sip_miktar>40</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>25.974</KdvMat>
+    <Birim>3.75</Birim>
+    <PROTUTAR>150</PROTUTAR>
+    <sip_iskonto_1>9</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>170.274</Toplam>
+    <isk1>15</isk1>
+    <isk2>0</isk2>
+    <PRKOD>06001</PRKOD>
+    <PRUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>3</PLASIYER>
+    <ARABAYIADI>06001</ARABAYIADI>
+    <sip_aciklama2>Adet</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>2013K</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Melodika 13 Klavyeli BEDELSİZ</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>0</Birim>
+    <PROTUTAR>0</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>0</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>06001</PRKOD>
+    <PRUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>3</PLASIYER>
+    <ARABAYIADI>06001</ARABAYIADI>
+    <sip_aciklama2>Adet</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>2032</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Melodika 32 Klavyeli</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>43.29</KdvMat>
+    <Birim>25</Birim>
+    <PROTUTAR>250</PROTUTAR>
+    <sip_iskonto_1>9</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>283.79</Toplam>
+    <isk1>25</isk1>
+    <isk2>0</isk2>
+    <PRKOD>06001</PRKOD>
+    <PRUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>3</PLASIYER>
+    <ARABAYIADI>06001</ARABAYIADI>
+    <sip_aciklama2>Adet</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>2032K</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Melodika 32 Klavyeli BEDELSİZ</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>0</Birim>
+    <PROTUTAR>0</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>0</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>06001</PRKOD>
+    <PRUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>3</PLASIYER>
+    <ARABAYIADI>06001</ARABAYIADI>
+    <sip_aciklama2>Adet</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>6770</sip_stok_kod>
+    <sto_isim>VAGON METALİK OLUKLU KARTON (50x 70 cm.) 60 rulo</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Set</BirimAd>
+    <KdvMat>25.974</KdvMat>
+    <Birim>75</Birim>
+    <PROTUTAR>150</PROTUTAR>
+    <sip_iskonto_1>9</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>170.274</Toplam>
+    <isk1>15</isk1>
+    <isk2>0</isk2>
+    <PRKOD>06001</PRKOD>
+    <PRUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>3</PLASIYER>
+    <ARABAYIADI>06001</ARABAYIADI>
+    <sip_aciklama2>Set</sip_aciklama2>
+  </Table>
+  <Table>
+    <sip_stok_kod>6770K</sip_stok_kod>
+    <sto_isim>VAGON METALİK OLUKLU KARTON BEDELSİZ</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Set</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>0</Birim>
+    <PROTUTAR>0</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>0</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>06001</PRKOD>
+    <PRUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</PRUNVAN>
+    <CKKOD>06001</CKKOD>
+    <CKUNVAN>ERAL KIRTASİYE LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>3</PLASIYER>
+    <ARABAYIADI>06001</ARABAYIADI>
+    <sip_aciklama2>Set</sip_aciklama2>
+  </Table>
+</NewDataSet>

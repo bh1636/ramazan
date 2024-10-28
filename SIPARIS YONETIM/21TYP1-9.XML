@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>KC 461</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI</sto_isim>
+    <sip_miktar>480</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>211.2</KdvMat>
+    <Birim>5.5</Birim>
+    <PROTUTAR>2640</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2851.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-39669</PRKOD>
+    <PRUNVAN>DUNYA AMBALAJ</PRUNVAN>
+    <CKKOD>44002</CKKOD>
+    <CKUNVAN>KAYNARLAR DAĞITIM LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-39669</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>KC 746</sip_stok_kod>
+    <sto_isim>KALEM ÇANTASI ÜÇGEN</sto_isim>
+    <sip_miktar>480</sip_miktar>
+    <KdvOrani>8</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>307.2</KdvMat>
+    <Birim>8</Birim>
+    <PROTUTAR>3840</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4147.2</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-39669</PRKOD>
+    <PRUNVAN>DUNYA AMBALAJ</PRUNVAN>
+    <CKKOD>44002</CKKOD>
+    <CKUNVAN>KAYNARLAR DAĞITIM LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-39669</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3021</sip_stok_kod>
+    <sto_isim>SİLİKON KALEM BAŞLIĞI(120 ADET)</sto_isim>
+    <sip_miktar>56</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>1330.56</KdvMat>
+    <Birim>132</Birim>
+    <PROTUTAR>7392</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>8722.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-39669</PRKOD>
+    <PRUNVAN>DUNYA AMBALAJ</PRUNVAN>
+    <CKKOD>44002</CKKOD>
+    <CKUNVAN>KAYNARLAR DAĞITIM LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-39669</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4091</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) KIRMIZI</sto_isim>
+    <sip_miktar>300</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>297</KdvMat>
+    <Birim>5.5</Birim>
+    <PROTUTAR>1650</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1947</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-39669</PRKOD>
+    <PRUNVAN>DUNYA AMBALAJ</PRUNVAN>
+    <CKKOD>44002</CKKOD>
+    <CKUNVAN>KAYNARLAR DAĞITIM LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-39669</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4093</sip_stok_kod>
+    <sto_isim>VAGON KARNVAL PON PON(ÇİFT) BEYAZ</sto_isim>
+    <sip_miktar>300</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>297</KdvMat>
+    <Birim>5.5</Birim>
+    <PROTUTAR>1650</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1947</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-39669</PRKOD>
+    <PRUNVAN>DUNYA AMBALAJ</PRUNVAN>
+    <CKKOD>44002</CKKOD>
+    <CKUNVAN>KAYNARLAR DAĞITIM LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-39669</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7390</sip_stok_kod>
+    <sto_isim>MASKE(40'LI SET)</sto_isim>
+    <sip_miktar>10</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>252</KdvMat>
+    <Birim>140</Birim>
+    <PROTUTAR>1400</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1652</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-39669</PRKOD>
+    <PRUNVAN>DUNYA AMBALAJ</PRUNVAN>
+    <CKKOD>44002</CKKOD>
+    <CKUNVAN>KAYNARLAR DAĞITIM LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-39669</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>2032</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Melodika 32 Klavyeli</sto_isim>
+    <sip_miktar>180</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>2235.6</KdvMat>
+    <Birim>69</Birim>
+    <PROTUTAR>12420</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14655.6</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-39669</PRKOD>
+    <PRUNVAN>DUNYA AMBALAJ</PRUNVAN>
+    <CKKOD>44002</CKKOD>
+    <CKUNVAN>KAYNARLAR DAĞITIM LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>01</PLASIYER>
+    <ARABAYIADI>PR-39669</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

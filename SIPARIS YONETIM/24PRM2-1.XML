@@ -1,0 +1,169 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>9503</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL YUVARLAK KUTU (24 ADET)</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>540</Birim>
+    <PROTUTAR>2700</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2700</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43365</PRKOD>
+    <PRUNVAN>yildiz kirt</PRUNVAN>
+    <CKKOD>34038</CKKOD>
+    <CKUNVAN>DESTEK KIRTASİYE TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>04</PLASIYER>
+    <ARABAYIADI>PR-43365</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9507</sip_stok_kod>
+    <sto_isim>ISLAK MENDİL CEP TİPİ(60 ADET)</sto_isim>
+    <sip_miktar>3</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>KUTU</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>450</Birim>
+    <PROTUTAR>1350</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>1350</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43365</PRKOD>
+    <PRUNVAN>yildiz kirt</PRUNVAN>
+    <CKKOD>34038</CKKOD>
+    <CKUNVAN>DESTEK KIRTASİYE TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>04</PLASIYER>
+    <ARABAYIADI>PR-43365</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>9511</sip_stok_kod>
+    <sto_isim>DESENLİ CEP MENDİLİ (9 PAKET)</sto_isim>
+    <sip_miktar>32</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>63</Birim>
+    <PROTUTAR>2016</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2016</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43365</PRKOD>
+    <PRUNVAN>yildiz kirt</PRUNVAN>
+    <CKKOD>34038</CKKOD>
+    <CKUNVAN>DESTEK KIRTASİYE TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>04</PLASIYER>
+    <ARABAYIADI>PR-43365</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>1032</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU MELODİKA 32 KLAVYELİ SOFT BAG</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>340</Birim>
+    <PROTUTAR>4080</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>4080</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43365</PRKOD>
+    <PRUNVAN>yildiz kirt</PRUNVAN>
+    <CKKOD>34038</CKKOD>
+    <CKUNVAN>DESTEK KIRTASİYE TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>04</PLASIYER>
+    <ARABAYIADI>PR-43365</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3022</sip_stok_kod>
+    <sto_isim>SQUISHY ANAHTARLIK(24 ADET)</sto_isim>
+    <sip_miktar>6</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>480</Birim>
+    <PROTUTAR>2880</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>2880</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43365</PRKOD>
+    <PRUNVAN>yildiz kirt</PRUNVAN>
+    <CKKOD>34038</CKKOD>
+    <CKUNVAN>DESTEK KIRTASİYE TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>04</PLASIYER>
+    <ARABAYIADI>PR-43365</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3027</sip_stok_kod>
+    <sto_isim>PLASTİK 3 D  MİNİ AKSESUAR(200 ADET)</sto_isim>
+    <sip_miktar>20</sip_miktar>
+    <KdvOrani>0</KdvOrani>
+    <BirimAd>PAKET</BirimAd>
+    <KdvMat>0</KdvMat>
+    <Birim>400</Birim>
+    <PROTUTAR>8000</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>8000</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR-43365</PRKOD>
+    <PRUNVAN>yildiz kirt</PRUNVAN>
+    <CKKOD>34038</CKKOD>
+    <CKUNVAN>DESTEK KIRTASİYE TİC.LTD.ŞTİ.</CKUNVAN>
+    <PLASIYER>04</PLASIYER>
+    <ARABAYIADI>PR-43365</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>

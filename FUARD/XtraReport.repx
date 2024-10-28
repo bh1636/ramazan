@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="11.2.7.0" Ref="2" Name="SiparisRapor" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v11.2, Version=11.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataAdapter="#Ref-1" DataMember="SIPARISLER" Dpi="254" ReportUnit="TenthsOfAMillimeter" Margins="71, 79, 165, 254" Version="11.2" SnapGridSize="31.75" PageWidth="2159" PageHeight="2794">
+  <CalculatedFields>
+    <Item1 Ref="3" Expression="Iif([SATIRTURU]  == 'Promosyon',[BIRIMFIYAT],0)&#xD;&#xA;" DataMember="SIPARISLER" Name="cf1" />
+  </CalculatedFields>
+  <Bands>
+    <Item1 Ref="4" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Dpi="254" Padding="0,0,0,0,254" StyleName="DataField" HeightF="58.4200134">
+      <Controls>
+        <Item1 Ref="5" Name="xrLabel24" ControlType="XRLabel" LocationFloat="13.229167, 0" SizeF="278.770844,58.42" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel24">
+          <DataBindings>
+            <Item1 Ref="6" PropertyName="Text" DataMember="SIPARISLER.MALZEME KODU" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="7" Name="xrLabel15" ControlType="XRLabel" LocationFloat="922.5643, 0" SizeF="296.084167,58.4200134" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel15">
+          <DataBindings>
+            <Item1 Ref="8" PropertyName="Text" DataMember="SIPARISLER.URETICIKODU" />
+          </DataBindings>
+        </Item2>
+        <Item3 Ref="9" Name="xrLabel13" ControlType="XRLabel" LocationFloat="1740.00049, 0" SizeF="254,58.42" Dpi="254" TextAlignment="TopRight" Padding="5,5,0,0,254" Text="[TUTAR]">
+          <DataBindings>
+            <Item1 Ref="10" FormatString="{0:c2}" PropertyName="Text" DataMember="SIPARISLER.TUTAR" />
+          </DataBindings>
+          <StylePriority Ref="11" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="12" Name="xrLabel16" ControlType="XRLabel" LocationFloat="1615.64624, 0" SizeF="124.354248,58.42" Dpi="254" Font="Times New Roman, 9pt" Padding="5,5,0,0,254" Text="xrLabel16">
+          <DataBindings>
+            <Item1 Ref="13" PropertyName="Text" DataMember="SIPARISLER.BIRIM" />
+          </DataBindings>
+          <StylePriority Ref="14" UseFont="false" />
+        </Item4>
+        <Item5 Ref="15" Name="xrLabel12" ControlType="XRLabel" LocationFloat="1502.8335, 0" SizeF="112.812561,58.42" Dpi="254" WordWrap="false" TextAlignment="TopRight" Font="Times New Roman, 9pt" Padding="5,5,0,0,254" CanGrow="false" Text="xrLabel12">
+          <DataBindings>
+            <Item1 Ref="16" PropertyName="Text" DataMember="SIPARISLER.MIKTAR" />
+          </DataBindings>
+          <StylePriority Ref="17" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="18" Name="xrLabel11" ControlType="XRLabel" LocationFloat="1218.64832, 0" SizeF="284.185181,58.42" Dpi="254" WordWrap="false" Font="Times New Roman, 9pt" Padding="5,5,0,0,254" CanGrow="false" Text="xrLabel11">
+          <DataBindings>
+            <Item1 Ref="19" PropertyName="Text" DataMember="SIPARISLER.MARKA" />
+          </DataBindings>
+          <StylePriority Ref="20" UseFont="false" />
+        </Item6>
+        <Item7 Ref="21" Name="xrLabel10" ControlType="XRLabel" LocationFloat="292.000031, 0" SizeF="624.6052,58.42" Dpi="254" WordWrap="false" Font="Times New Roman, 9pt" Padding="5,5,0,0,254" CanGrow="false" Text="xrLabel10">
+          <DataBindings>
+            <Item1 Ref="22" PropertyName="Text" DataMember="SIPARISLER.MALZEME ADI" />
+          </DataBindings>
+          <StylePriority Ref="23" UseFont="false" />
+        </Item7>
+      </Controls>
+    </Item1>
+    <Item2 Ref="24" ControlType="PageHeaderBand" Name="pageHeaderBand1" Dpi="254" HeightF="396.672">
+      <Controls>
+        <Item1 Ref="25" ControlType="XRPictureBox" Name="xrPictureBox2" LocationFloat="1643.7074, 10.0000353" Dpi="254" SizeF="333.375,248.920013" Sizing="ZoomImage">
+          <DataBindings>
+            <Item1 Ref="26" PropertyName="Image" DataMember="SIPARISLER.TEDARIKCILOGOSU" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="27" Name="xrLabel14" ControlType="XRLabel" LocationFloat="13.229167, 324.8026" SizeF="278.770844,58.4200134" Dpi="254" Font="Times New Roman, 9.75pt, style=Underline" Padding="5,5,0,0,254" Text="Malzeme Kodu">
+          <StylePriority Ref="28" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="29" Name="xrLabel23" ControlType="XRLabel" LocationFloat="922.56366, 324.8026" SizeF="296.0841,58.4200134" Dpi="254" Font="Times New Roman, 9.75pt, style=Underline" Padding="5,5,0,0,254" Text="Üretici Kodu">
+          <StylePriority Ref="30" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="31" Name="xrLabel9" ControlType="XRLabel" LocationFloat="528.2501, 88.25" SizeF="225.499878,58.4200058" Dpi="254" Padding="5,5,0,0,254" Text="Tedarikçi Adı :" />
+        <Item5 Ref="32" Name="xrLabel8" ControlType="XRLabel" LocationFloat="753.75, 88.25002" SizeF="866.24585,58.41999" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel8">
+          <DataBindings>
+            <Item1 Ref="33" PropertyName="Text" DataMember="SIPARISLER.TEDARIKCIADI" />
+          </DataBindings>
+        </Item5>
+        <Item6 Ref="34" Name="xrLabel7" ControlType="XRLabel" LocationFloat="292, 146.67" SizeF="182.562485,58.42" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel7">
+          <DataBindings>
+            <Item1 Ref="35" PropertyName="Text" DataMember="SIPARISLER.SIPARISSAATI" />
+          </DataBindings>
+        </Item6>
+        <Item7 Ref="36" Name="xrLabel6" ControlType="XRLabel" LocationFloat="292, 88.25" SizeF="182.562485,58.42" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel6">
+          <DataBindings>
+            <Item1 Ref="37" FormatString="{0:dd.MM.yyyy}" PropertyName="Text" DataMember="SIPARISLER.SIPARISTARIHI" />
+          </DataBindings>
+        </Item7>
+        <Item8 Ref="38" Name="xrLabel5" ControlType="XRLabel" LocationFloat="64.4584351, 146.67" SizeF="227.541641,58.4200058" Dpi="254" Padding="5,5,0,0,254" Text="Sipariş Saati :" />
+        <Item9 Ref="39" Name="xrLabel4" ControlType="XRLabel" LocationFloat="64.4584045, 88.25" SizeF="227.541641,58.4200058" Dpi="254" Padding="5,5,0,0,254" Text="Sipariş Tarihi :" />
+        <Item10 Ref="40" Name="xrLabel3" ControlType="XRLabel" LocationFloat="753.75, 24.7499828" SizeF="866.24585,58.4200058" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel3">
+          <DataBindings>
+            <Item1 Ref="41" PropertyName="Text" DataMember="SIPARISLER.FIRMAADI" />
+          </DataBindings>
+        </Item10>
+        <Item11 Ref="42" Name="xrLabel2" ControlType="XRLabel" LocationFloat="528.2501, 24.75" SizeF="225.499878,58.4200058" Dpi="254" Padding="5,5,0,0,254" Text="Firma Adı :" />
+        <Item12 Ref="43" Name="xrLabel1" ControlType="XRLabel" LocationFloat="64.4584045, 24.7499924" SizeF="227.5416,58.4200058" Dpi="254" Padding="5,5,0,0,254" Text="Sipariş No:" />
+        <Item13 Ref="44" Name="xrLabel28" ControlType="XRLabel" LocationFloat="292, 24.75" SizeF="182.562485,58.42" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel28">
+          <DataBindings>
+            <Item1 Ref="45" PropertyName="Text" DataMember="SIPARISLER.SIPARISNO" />
+          </DataBindings>
+        </Item13>
+        <Item14 Ref="46" Name="xrLabel18" ControlType="XRLabel" LocationFloat="292.000183, 324.802521" SizeF="624.605042,58.4200134" Dpi="254" Font="Times New Roman, 9.75pt, style=Underline" Padding="5,5,0,0,254" Text="Malzeme Adı">
+          <StylePriority Ref="47" UseFont="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="48" Name="xrLabel19" ControlType="XRLabel" LocationFloat="1218.64783, 324.802521" SizeF="284.185669,58.4200134" Dpi="254" Font="Times New Roman, 9.75pt, style=Underline" Padding="5,5,0,0,254" Text="Marka">
+          <StylePriority Ref="49" UseFont="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="50" Name="xrLabel20" ControlType="XRLabel" LocationFloat="1502.8335, 324.802521" SizeF="112.812561,58.42" Dpi="254" Font="Times New Roman, 9.75pt, style=Underline" Padding="5,5,0,0,254" Text="Miktar">
+          <StylePriority Ref="51" UseFont="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="52" Name="xrLabel21" ControlType="XRLabel" LocationFloat="1615.646, 324.802521" SizeF="124.354248,58.42" Dpi="254" Font="Times New Roman, 9.75pt, style=Underline" Padding="5,5,0,0,254" Text="Birim">
+          <StylePriority Ref="53" UseFont="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="54" Name="xrLabel22" ControlType="XRLabel" LocationFloat="1740, 324.8026" SizeF="254,58.4200134" Dpi="254" TextAlignment="TopRight" Font="Times New Roman, 9.75pt, style=Underline" Padding="5,5,0,0,254" Text="Tutar">
+          <StylePriority Ref="55" UseFont="false" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="56" Name="xrLabel32" ControlType="XRLabel" LocationFloat="1061.09607, 146.669983" SizeF="558.899658,58.4200439" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel32">
+          <DataBindings>
+            <Item1 Ref="57" PropertyName="Text" DataMember="SIPARISLER.SOYADI" />
+          </DataBindings>
+        </Item19>
+        <Item20 Ref="58" ControlType="XRShape" Name="xrShape2" SizeF="1977.00024,259.201752" Dpi="254" LocationFloat="17.0002136, 10.0000353">
+          <Shape Ref="59" ShapeName="Rectangle" />
+        </Item20>
+        <Item21 Ref="60" Name="xrLabel33" ControlType="XRLabel" LocationFloat="528.2501, 146.669983" SizeF="225.499878,58.42003" Dpi="254" Padding="5,5,0,0,254" Text="Siparişi Alan :" />
+        <Item22 Ref="61" Name="xrLabel31" ControlType="XRLabel" LocationFloat="753.75, 146.669983" SizeF="307.3463,58.4200439" Dpi="254" Padding="5,5,0,0,254" Text="xrLabel31">
+          <DataBindings>
+            <Item1 Ref="62" PropertyName="Text" DataMember="SIPARISLER.ADI" />
+          </DataBindings>
+        </Item22>
+      </Controls>
+    </Item2>
+    <Item3 Ref="63" ControlType="GroupHeaderBand" Name="groupHeaderBand1" Dpi="254" StyleName="DataField" HeightF="5.92001963">
+      <GroupFields>
+        <Item1 Ref="64" FieldName="SIPARISNO" />
+      </GroupFields>
+    </Item3>
+    <Item4 Ref="65" ControlType="PageFooterBand" Name="pageFooterBand1" Dpi="254" HeightF="71.35417">
+      <Controls>
+        <Item1 Ref="66" ControlType="XRPageInfo" Name="xrPageInfo2" SizeF="429.8949,58.4200058" StyleName="PageInfo" Dpi="254" Padding="5,5,0,0,254" LocationFloat="1544.9176, 0" Format="Sayfa {0} / {1}" TextAlignment="TopRight" />
+      </Controls>
+    </Item4>
+    <Item5 Ref="67" Name="reportHeaderBand1" ControlType="ReportHeaderBand" Dpi="254" HeightF="196.979172">
+      <Controls>
+        <Item1 Ref="68" ControlType="XRPageInfo" Name="xrPageInfo3" SizeF="191.7699,58.4200058" StyleName="PageInfo" Dpi="254" Padding="5,5,0,0,254" LocationFloat="1785.3125, 112.570084" PageInfo="DateTime" Format="{0:HH:mm:ss}" />
+        <Item2 Ref="69" ControlType="XRPictureBox" Name="xrPictureBox1" LocationFloat="37.99998, 34.3958321" Dpi="254" SizeF="656.1666,137.583344" Image="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" Sizing="ZoomImage" />
+        <Item3 Ref="70" Name="xrLabel54" ControlType="XRLabel" LocationFloat="793.75, 28.75" SizeF="461.6449,83.82001" Dpi="254" StyleName="Title" Padding="5,5,0,0,254" Text="Sipariş Formu" />
+        <Item4 Ref="71" ControlType="XRPageInfo" Name="xrPageInfo1" SizeF="421.95752,58.4200058" StyleName="PageInfo" Dpi="254" Padding="5,5,0,0,254" LocationFloat="1555.12488, 54.15004" PageInfo="DateTime" />
+        <Item5 Ref="72" ControlType="XRShape" Name="xrShape1" SizeF="1977.00024,179.687515" Dpi="254" LineWidth="2" LocationFloat="17.0002136, 17.29166">
+          <Shape Ref="73" ShapeName="Rectangle" />
+        </Item5>
+      </Controls>
+    </Item5>
+    <Item6 Ref="74" Name="topMarginBand1" ControlType="TopMarginBand" Dpi="254" HeightF="165" />
+    <Item7 Ref="75" Name="bottomMarginBand1" ControlType="BottomMarginBand" Dpi="254" HeightF="254" />
+    <Item8 Ref="76" ControlType="ReportFooterBand" Name="ReportFooter" Dpi="254" HeightF="284.833557">
+      <Controls>
+        <Item1 Ref="77" Name="xrLine3" ControlType="XRLine" Dpi="254" SizeF="555.6875,29.1041718" LocationFloat="1446.31274, 247.562729" BorderDashStyle="Double" LineWidth="3">
+          <StylePriority Ref="78" UseBorderDashStyle="false" />
+        </Item1>
+        <Item2 Ref="79" Name="xrLabel29" ControlType="XRLabel" LocationFloat="1446.31274, 189.142685" SizeF="293.6875,58.4199944" Dpi="254" Padding="5,5,0,0,254" Text="Net Toplam :" />
+        <Item3 Ref="80" Name="xrLine2" ControlType="XRLine" Dpi="254" SizeF="555.687744,29.1041565" LocationFloat="1446.3125, 154.038559" BorderDashStyle="Double" LineWidth="3">
+          <StylePriority Ref="81" UseBorderDashStyle="false" />
+        </Item3>
+        <Item4 Ref="82" Name="xrLabel30" ControlType="XRLabel" LocationFloat="1740.00049, 24.9999275" SizeF="253.999512,58.4199944" Dpi="254" TextAlignment="TopRight" Padding="5,5,0,0,254" Text="xrLabel30">
+          <DataBindings>
+            <Item1 Ref="83" PropertyName="Text" DataMember="SIPARISLER.TUTAR" />
+          </DataBindings>
+          <StylePriority Ref="84" UseTextAlignment="false" />
+          <Summary Ref="85" IgnoreNullValues="true" FormatString="{0:c2}" Running="Page" />
+        </Item4>
+        <Item5 Ref="86" Name="xrLabel27" ControlType="XRLabel" LocationFloat="1740.00049, 95.618515" SizeF="253.999512,58.4200058" Dpi="254" TextAlignment="TopRight" Padding="5,5,0,0,254" Text="xrLabel27">
+          <DataBindings>
+            <Item1 Ref="87" PropertyName="Text" DataMember="SIPARISLER.INDIRIMTUTARI" />
+          </DataBindings>
+          <StylePriority Ref="88" UseTextAlignment="false" />
+          <Summary Ref="89" IgnoreNullValues="true" FormatString="{0:c2}" Running="Page" />
+        </Item5>
+        <Item6 Ref="90" Name="xrLine1" ControlType="XRLine" Dpi="254" SizeF="783.3519,22.6874886" LocationFloat="1218.64832, 0" LineWidth="3" />
+        <Item7 Ref="91" Name="xrLabel26" ControlType="XRLabel" LocationFloat="1446.3125, 95.618515" SizeF="293.687622,58.4200058" Dpi="254" Padding="5,5,0,0,254" Text="İndirimler Toplamı :" />
+        <Item8 Ref="92" Name="xrLabel25" ControlType="XRLabel" LocationFloat="1446.31274, 24.9999275" SizeF="293.6875,58.4199944" Dpi="254" Padding="5,5,0,0,254" Text="Genel Toplam :" />
+        <Item9 Ref="93" Name="xrLabel17" ControlType="XRLabel" LocationFloat="1740, 189.142685" SizeF="254,58.4199944" Dpi="254" TextAlignment="TopRight" Font="Times New Roman, 9pt" Padding="5,5,0,0,254" Text="xrLabel17">
+          <DataBindings>
+            <Item1 Ref="94" PropertyName="Text" DataMember="SIPARISLER.NETTUTAR" />
+          </DataBindings>
+          <StylePriority Ref="95" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="96" IgnoreNullValues="true" FormatString="{0:c2}" Running="Page" />
+        </Item9>
+      </Controls>
+    </Item8>
+  </Bands>
+  <FormattingRuleSheet>
+    <Item1 Ref="97" Name="formattingRule1" DataMember="SIPARISLER">
+      <Formatting Ref="98" StringFormat="Near;Near;0;None;Character;Default" BorderStyle="Inset" />
+    </Item1>
+  </FormattingRuleSheet>
+  <StyleSheet>
+    <Item1 Ref="99" Name="Title" BorderColor="ControlText" Sides="None" BorderWidthSerializable="1" StringFormat="Near;Near;0;None;Character;Default" BackColor="White" BorderStyle="Inset" Font="Times New Roman, 20pt, style=Bold" ForeColor="Maroon" />
+    <Item2 Ref="100" Name="FieldCaption" BorderColor="ControlText" Sides="None" BorderWidthSerializable="1" StringFormat="Near;Near;0;None;Character;Default" BackColor="White" BorderStyle="Inset" Font="Arial, 10pt, style=Bold" ForeColor="Maroon" />
+    <Item3 Ref="101" Name="PageInfo" BorderColor="ControlText" Sides="None" BorderWidthSerializable="1" StringFormat="Near;Near;0;None;Character;Default" BackColor="White" BorderStyle="Inset" Font="Times New Roman, 10pt, style=Bold" ForeColor="ControlText" />
+    <Item4 Ref="102" Name="DataField" BorderColor="ControlText" Sides="None" BorderWidthSerializable="1" StringFormat="Near;Near;0;None;Character;Default" BackColor="White" Padding="5,5,0,0,254" BorderStyle="Inset" Font="Times New Roman, 10pt" ForeColor="ControlText" />
+  </StyleSheet>
+  <ObjectStorage>
+    <Item1 Ref="0" Content="~Xtra#NULL" Type="Fuar.siparis" />
+    <Item2 Ref="1" Content="~Xtra#NULL" Type="Fuar.siparisTableAdapters.SIPARISLERAdapter" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,851 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sip_stok_kod" type="xs:string" minOccurs="0" />
+                <xs:element name="sto_isim" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_miktar" type="xs:double" minOccurs="0" />
+                <xs:element name="KdvOrani" type="xs:int" minOccurs="0" />
+                <xs:element name="BirimAd" type="xs:string" minOccurs="0" />
+                <xs:element name="KdvMat" type="xs:double" minOccurs="0" />
+                <xs:element name="Birim" type="xs:double" minOccurs="0" />
+                <xs:element name="PROTUTAR" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_1" type="xs:double" minOccurs="0" />
+                <xs:element name="sip_iskonto_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Toplam" type="xs:double" minOccurs="0" />
+                <xs:element name="isk1" type="xs:double" minOccurs="0" />
+                <xs:element name="isk2" type="xs:double" minOccurs="0" />
+                <xs:element name="PRKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="PRUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CKKOD" type="xs:string" minOccurs="0" />
+                <xs:element name="CKUNVAN" type="xs:string" minOccurs="0" />
+                <xs:element name="PLASIYER" type="xs:string" minOccurs="0" />
+                <xs:element name="ARABAYIADI" type="xs:string" minOccurs="0" />
+                <xs:element name="sip_aciklama2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sip_stok_kod>1000</sip_stok_kod>
+    <sto_isim>HELVACIOĞLU Blokflüt Kutulu</sto_isim>
+    <sip_miktar>50</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>36</KdvMat>
+    <Birim>4</Birim>
+    <PROTUTAR>200</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>236</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>T 1</sip_stok_kod>
+    <sto_isim>RENKLİ BANT (36'LI SET)</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Set</BirimAd>
+    <KdvMat>10.8</KdvMat>
+    <Birim>60</Birim>
+    <PROTUTAR>60</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>70.8</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>3020</sip_stok_kod>
+    <sto_isim>SİLİKON KALEM BAŞLIĞI(72 ADET)</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>9</KdvMat>
+    <Birim>50</Birim>
+    <PROTUTAR>50</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>59</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4001</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. KIRMIZI</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4002</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. FUŞYA</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4003</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. SARI</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4004</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. PEMBE</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4007</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. AÇIK MAVİ</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4009</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. YEŞİL</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4011</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. BEYAZ</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4013</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. MOR</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>4017</sip_stok_kod>
+    <sto_isim>VAGON RAFYA 200 M. SİYAH</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>2.25</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>12.5</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.75</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5201</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. TOU</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5202</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. TN2</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5203</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. GT8</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5204</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. GT4</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5205</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. GT36</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5206</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. GL2</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5207</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. HECBAC</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5208</sip_stok_kod>
+    <sto_isim>VAGON MİSKET 16 MM. GLZ</sto_isim>
+    <sip_miktar>2</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>FİLE</BirimAd>
+    <KdvMat>1.08</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>6</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>7.08</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5301</sip_stok_kod>
+    <sto_isim>VAGON SLIME TOPIC KÜLAH</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>6.48</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>36</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>42.480000000000004</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5302</sip_stok_kod>
+    <sto_isim>VAGON SLIME TOPIC KURBAĞA</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>7.56</KdvMat>
+    <Birim>3.5</Birim>
+    <PROTUTAR>42</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>49.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5304</sip_stok_kod>
+    <sto_isim>VAGON SLIME TOPIC AMPÜL</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>4.32</KdvMat>
+    <Birim>2</Birim>
+    <PROTUTAR>24</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>28.32</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>5311</sip_stok_kod>
+    <sto_isim>VAGON SLIME TOPIC 7 CM. IŞIKLI TOP</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>7.56</KdvMat>
+    <Birim>3.5</Birim>
+    <PROTUTAR>42</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>49.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>7390</sip_stok_kod>
+    <sto_isim>MASKE(40'LI SET)</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>14.4</KdvMat>
+    <Birim>80</Birim>
+    <PROTUTAR>80</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>94.4</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 702</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU KALP</sto_isim>
+    <sip_miktar>6</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>7.56</KdvMat>
+    <Birim>7</Birim>
+    <PROTUTAR>42</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>49.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 703</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU KARE</sto_isim>
+    <sip_miktar>6</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>7.56</KdvMat>
+    <Birim>7</Birim>
+    <PROTUTAR>42</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>49.56</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 704</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU SİLİNDİR</sto_isim>
+    <sip_miktar>6</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>8.64</KdvMat>
+    <Birim>8</Birim>
+    <PROTUTAR>48</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>56.64</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 705</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU ALTIGEN</sto_isim>
+    <sip_miktar>4</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>5.76</KdvMat>
+    <Birim>8</Birim>
+    <PROTUTAR>32</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>37.76</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 800</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU KALP</sto_isim>
+    <sip_miktar>6</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>2.7</KdvMat>
+    <Birim>2.5</Birim>
+    <PROTUTAR>15</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>17.7</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 809</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU KARE</sto_isim>
+    <sip_miktar>6</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>2.16</KdvMat>
+    <Birim>2</Birim>
+    <PROTUTAR>12</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>14.16</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 817</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU DİKDÖRTGEN</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>6.48</KdvMat>
+    <Birim>3</Birim>
+    <PROTUTAR>36</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>42.480000000000004</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 818</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU KALP</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>7.02</KdvMat>
+    <Birim>3.25</Birim>
+    <PROTUTAR>39</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>46.019999999999996</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 819</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU SİLİNDİR</sto_isim>
+    <sip_miktar>12</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>Adet</BirimAd>
+    <KdvMat>7.02</KdvMat>
+    <Birim>3.25</Birim>
+    <PROTUTAR>39</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>46.019999999999996</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 836</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU SET (3'LÜ KARE)</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>4.5</KdvMat>
+    <Birim>25</Birim>
+    <PROTUTAR>25</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>29.5</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 911</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU SET (3'LÜ KALP)</sto_isim>
+    <sip_miktar>5</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>SET</BirimAd>
+    <KdvMat>12.6</KdvMat>
+    <Birim>14</Birim>
+    <PROTUTAR>70</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>82.6</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+  <Table>
+    <sip_stok_kod>HK 947</sip_stok_kod>
+    <sto_isim>HEDİYELİK KUTU SET 3'LÜ DİKDÖRTGEN</sto_isim>
+    <sip_miktar>1</sip_miktar>
+    <KdvOrani>18</KdvOrani>
+    <BirimAd>ADET</BirimAd>
+    <KdvMat>6.84</KdvMat>
+    <Birim>38</Birim>
+    <PROTUTAR>38</PROTUTAR>
+    <sip_iskonto_1>0</sip_iskonto_1>
+    <sip_iskonto_2>0</sip_iskonto_2>
+    <Toplam>44.84</Toplam>
+    <isk1>0</isk1>
+    <isk2>0</isk2>
+    <PRKOD>PR.2598</PRKOD>
+    <PRUNVAN>MENEKSE  KIRT</PRUNVAN>
+    <CKKOD>21001</CKKOD>
+    <CKUNVAN>LAZKAN TİCARET</CKUNVAN>
+    <PLASIYER>03</PLASIYER>
+    <ARABAYIADI>PR.2598</ARABAYIADI>
+    <sip_aciklama2 />
+  </Table>
+</NewDataSet>
